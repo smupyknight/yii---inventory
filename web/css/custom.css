@@ -1,0 +1,186 @@
+/* here you can put your own css to customize and override the theme */
+// For showing question/info in audit popup
+
+.user {
+	background-image:url('../images/input-icon1.jpg');
+	background-repeat:no-repeat;
+	background-position:97%;
+}
+.email {
+	background-image:url('../images/email.png');
+	background-repeat:no-repeat;
+	background-position:97%;
+}
+
+.lock {
+	background-image:url('../images/input-icon2.jpg');
+	background-repeat:no-repeat;
+	background-position:97%;
+}
+
+.input-group-signin {
+	width:100%;
+}
+
+th a {
+	color:#fff;
+}
+th a:hover {
+	color:#fff;
+}
+.user-edit
+{
+	margin-left:240px !important;
+	min-height:auto !important;
+}
+
+.editUser label{
+	width:100%;
+	float:left;
+}
+.editUser input{
+	width:70%;
+}
+.required
+{
+	/*color:red;*/
+}
+form div.required label.control-label:after {
+  content:" * ";
+  color:red;
+}
+.deleted {
+ color:red;
+}
+.hideOption {
+ display:none !important;
+}
+
+.template-pad {
+	padding:5px;
+}
+.position.ui-sortable-handle {
+    cursor: move;
+}
+.require {
+	color:#F00;
+}
+.popover{
+  max-width:500px !important;
+
+}
+
+.classDark {
+	background-color: #eeeeee;
+}
+.fa-arrow-right {
+	color: green !important;
+}
+.fa-random {
+	color: #F00 !important;
+}
+.fa-disabled {
+	color: #999 !important;
+	cursor: not-allowed;
+}
+.fa-check-circle {
+	color: green !important;
+}
+.fa-times-circle {
+	color: #F00 !important;
+}
+.reorder {
+	color: grey !important;
+}
+a.asc:after {
+    content:  "\f15d";
+    font-family: 'FontAwesome';
+}
+a.desc:after {
+    content:  "\f15e";
+    font-family: 'FontAwesome';
+}
+a.asc:after, a.desc:after {
+    / position: relative; /
+    / top: 1px; /
+    / display: inline-block; /
+    font-family: 'FontAwesome' !important;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+
+}
+
+label {
+	font-weight: bold !important;
+	color: black !important;
+}
+
+.right {
+	float: right;
+}
+.form1 {
+width:50%;
+}
+
+input[readonly]
+{
+    //border:0;
+    background-color: #CCCCCC;
+}
+select[disabled] {
+	 background-color: #CCCCCC;
+}
+
+.field-datafields-data_field_template_id, .field-datafields-survey_template_question_node_id {
+	margin : -15px !important;
+}
+ .field-datafields-value {margin-bottom : -5px !important;}
+ .bold-class {
+ 	font-weight: bold;
+ }
+
+ .previousValue {
+ 	float: right;
+    //color: white;
+    margin-top: -5px;
+    margin-right: 10px;
+    background-color: #3399ff;
+     -webkit-margin-before: 27px;
+ }
+
+ .previousMean {
+ 	float: right;
+    background-color: #99ff00;
+    //color: white;
+    margin-top: -5px;
+    -webkit-margin-before: 27px;
+}
+.parent-class {
+	font-weight: bold;
+	 background-color: #3399ff;
+}
+.deviation-higher {
+	color: #FF0000;
+
+}
+#note {
+	color: #FF0000;
+
+}
+.fa-question::before {
+    content: "Q" !important;
+}
+.fa-question-circle::before {
+	 content: "Q" !important;
+}
+
+#header .navbar-header {
+	height:120px;
+	background-image: none;
+	background-color: #ff7a63;
+}
+#header .navbar-header  img {
+	margin-top: 20px;
+}

@@ -1,0 +1,18 @@
+Order deny,allow
+Deny from 49.248.144.235
+Deny from 49.248.144.234
+Deny from 192.185.96.67
+
+Options -Indexes
+
+<IfModule mod_rewrite.c> 
+  RewriteEngine on
+
+# Maitenance mode
+#RewriteCond %{REMOTE_ADDR} !^195\.168\.77\.18
+#RewriteCond %{REMOTE_ADDR} !^165\.255\.111\.149
+#RewriteRule ^(.*)$ web/index-maintenance.php [L]
+
+  RewriteCond %{REQUEST_URI} !^public
+  RewriteRule ^(.*)$ web/$1 [L]
+</IfModule>
